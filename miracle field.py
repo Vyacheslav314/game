@@ -87,6 +87,7 @@ if start == 1:
             answer = word()
             if quest[0] == answer:
                 print('Удивительно но это правильный ответ!!!')
+                my_points += drum_points * 2
                 print(f'У вас {my_points} очков')
                 break
         elif turn == 2:
