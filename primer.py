@@ -490,23 +490,42 @@
 # for student in students:
 #     print(student.getMarks())
 #     print(student.__repr__())
+#
+# class Student:
+#         def __init__(self, name, grade, age):
+#             self.name = name
+#             self.grade = grade
+#             self.age = age
+#         def __repr__(self):
+#             return repr((self.name, self.grade, self.age))
+#         def weighted_grade(self):
+#             return 'CBA'.index(self.grade) / self.age
+#
+# student_objects = [
+#         Student('john', 'A', 15),
+#         Student('jane', 'B', 12),
+#         Student('dave', 'B', 10),
+#     ]
+# sorted(student_objects, key=lambda student: student.age)
+# print(student_objects.__repr__())
+#
+# [('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
 
-class Student:
-        def __init__(self, name, grade, age):
-            self.name = name
-            self.grade = grade
-            self.age = age
-        def __repr__(self):
-            return repr((self.name, self.grade, self.age))
-        def weighted_grade(self):
-            return 'CBA'.index(self.grade) / self.age
+# importing the BeautifulSoup Library
 
-student_objects = [
-        Student('john', 'A', 15),
-        Student('jane', 'B', 12),
-        Student('dave', 'B', 10),
-    ]
-sorted(student_objects, key=lambda student: student.age)
-print(student_objects.__repr__())
+import requests
+from bs4 import BeautifulSoup as bs
 
-[('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
+# Creating the requests
+
+res = requests.get('https://www.litres.ru/new/')
+print("The object type:", type(res))
+
+# Convert the request object to the Beautiful Soup Object
+soup = bs(res.text, 'html.parser')
+print("The object type:", type(soup))
+soup.select('.GenreSearchInput-module__wrapper_wHZgK')
+
+print(soup.text, end=',')
+
+

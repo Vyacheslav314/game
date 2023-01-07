@@ -1,4 +1,10 @@
-Дата;Время;Место;Описание
-31.12;23.59;дом;новый год
-11.02;любое;дом;день рождения
-20.12;до 00;тц;купить ёлку
+<div class="GenreItem-module__row_1gp9J"><a class="GenreItem-module__row_link_1zh2A" href="/genre/znaniya-navyki-201623/new/">знания и навыки</a></div>
+<div class="GenreItem-module__row_1gp9J"><a class="GenreItem-module__row_link_1zh2A" href="/genre/sereznoe-chtenie-201591/new/">серьезное чтение</a></div>
+<div class="GenreItem-module__row_1gp9J"><a class="GenreItem-module__row_link_1zh2A" href="/genre/legkoe-chtenie-201583/new/">легкое чтение</a></div>
+<div class="GenreItem-module__row_1gp9J"><a class="GenreItem-module__row_link_1zh2A" href="/genre/psihologiya-motivaciya-201631/new/">психология, мотивация</a></div>
+<div class="GenreItem-module__row_1gp9J"><a class="GenreItem-module__row_link_1zh2A" href="/genre/publicistika-periodicheskie-izdaniya-201655/new/">публицистика и периодические издания</a></div>
+<div class="GenreItem-module__row_1gp9J"><a class="GenreItem-module__row_link_1zh2A" href="/genre/istoriya-201599/new/">история</a></div>
+<div class="GenreItem-module__row_1gp9J"><a class="GenreItem-module__row_link_1zh2A" href="/genre/detskie-knigi-5007/new/">детские книги</a></div>
+<div class="GenreItem-module__row_1gp9J"><a class="GenreItem-module__row_link_1zh2A" href="/genre/biznes-5003/new/">бизнес-книги</a></div>
+<div class="GenreItem-module__row_1gp9J"><a class="GenreItem-module__row_link_1zh2A" href="/genre/hobbi-dosug-201639/new/">хобби, досуг</a></div>
+<div class="GenreItem-module__row_1gp9J"><a class="GenreItem-module__row_link_1zh2A" href="/genre/dom-dacha-201647/new/">дом, дача</a></div>
